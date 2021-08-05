@@ -1,4 +1,3 @@
----
 **Ques. What is a decision Tree?**
 
 **Ans.**
@@ -9,9 +8,9 @@
 
 ---
 
-** Ques. What are the assumptions of a Decision Tree? **
+**Ques. What are the assumptions of a Decision Tree?**
 
-** Ans. ** Following are the four assumptions of a Decision Tree :
+**Ans.** Following are the four assumptions of a Decision Tree :
 
 1. In the beginning, the root node has the entire dataset.
 2. Decision nodes or the feature values are preferred to be discrete. If they're not, then they are converted to discrete format first and then split is evaluated
@@ -20,7 +19,7 @@
 
 ---
 
-** Ques. What are the parts of a decision tree? **
+**Ques. What are the parts of a decision tree?**
 
 **Ans.** 
 1. Root - Representation of the entire dataset
@@ -30,17 +29,17 @@
 
 ---
 
-**Ques. What are the processes related to a decision tree? **
+**Ques. What are the processes related to a decision tree?**
 
-** Ans. 
+**Ans.**
 1. Splitting - Process of distributing the dataset on the basis of a feature based on their value
 2. Pruning - When we remove sub-nodes of a decision node, this process is called pruning. This is often done to reduce overfitting. 
 
 ---
 
-** Ques. How many types of Decision Trees are there? **
+**Ques. How many types of Decision Trees are there?**
 
-**Ans. ** 
+**Ans.**
 1. **ID3 (Iterative Dichotomiser 3)** - uses entropy and Information Gain to split
 1. **C4.5** - successor of ID3 ; Handles both continuous and discrete attributes; Handles training data with missing attribute values;Prunes trees after creation  
 1. **CART (Classification And Regression Tree)** - uses Gini Index to split 
@@ -82,7 +81,7 @@ where
 
 **Ques. What is Information Gain ?**
 
-**Ans. ** Information is gained when the entropy is less. 
+**Ans.** Information is gained when the entropy is less. 
 Hence, Information Gain is the decrease in entropy when an attribute is selected for splitting.
 ```
 Information gain(S,A) = E(S) - E(E,A)
@@ -149,9 +148,9 @@ CART (Classification and Regression Tree) uses the Gini index method to create s
 
 ---
 
-** Ques. What are the differences between Information Gain and Gini Impurity? **
+**Ques. What are the differences between Information Gain and Gini Impurity?**
 
-** Ans.** Gini Index vs Information Gain
+**Ans.** Gini Index vs Information Gain
 
 1. The Gini Index facilitates the bigger distributions so easy to implement 
         
