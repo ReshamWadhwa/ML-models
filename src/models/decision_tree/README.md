@@ -164,3 +164,8 @@ CART (Classification and Regression Tree) uses the Gini index method to create s
 1. Gini index operates on the categorical target variables in terms of “success” or “failure” 
  and performs only binary split, 
 in opposite to that Information Gain computes the difference between entropy before and after the split and indicates the impurity in classes of elements. 
+
+---
+**Ques. What are the Hyperparameters of a decision tree?**
+
+**Ans.**  
